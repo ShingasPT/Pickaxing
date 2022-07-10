@@ -1,0 +1,14 @@
+name: Pickaxing
+version: '${version}'
+main: pickaxing.server.core.Main
+api-version: 1.19
+depend: [ Vault ]
+softdepend: [ LuckPerms ]
+prefix: Pickaxing
+authors: [ ShingasPT, Nia ]
+description: Prison Core Plugin
+commands:
+  spawn:
+    description: 'Teleports a player to spawn | Admins can get/set this location'
+  starterpick:
+    description: 'Gives the player a Starter Pickaxe'
